@@ -1,0 +1,85 @@
+
+
+svg.radial-progress {
+  height: auto;
+  max-width: 150px;
+  padding: 1em;
+  transform: rotate(-90deg);
+  width: 100%;
+}
+
+svg.radial-progress circle {
+  fill: rgba(181, 52, 52, 0);
+  stroke: #fff;
+  stroke-dashoffset: 219.91148575129; /* Circumference */
+  stroke-width: 10;
+}
+
+svg.radial-progress circle.incomplete { opacity: 0.25; }
+
+svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; /* Circumference */ }
+
+svg.radial-progress text {
+  fill: rgb(0, 0, 0);
+  font-size:10px;
+  text-anchor: middle;
+}
+
+/*** COLORS ***/
+/* Primary */
+
+svg.radial-progress:nth-of-type(6n+1) circle { stroke: #a2ed56; }
+
+/* Secondary */
+
+svg.radial-progress:nth-of-type(6n+2) circle { stroke: #83e4e2; }
+
+/* Tertiary */
+
+svg.radial-progress:nth-of-type(6n+3) circle { stroke: #fd6470; }
+
+/* Quaternary */
+
+svg.radial-progress:nth-of-type(6n+4) circle { stroke: #6b7ff0; }
+
+/* Quinary */
+
+svg.radial-progress:nth-of-type(6n+5) circle { stroke: #fddc32;}
+
+/* Quinary */
+
+svg.radial-progress:nth-of-type(6n+6) circle { stroke: #8155ac; }
+
+/* Quinary */
+
+svg.radial-progress:nth-of-type(6n+7) circle { stroke: #8155ac; }
+
+/* Quinary */
+
+svg.radial-progress:nth-of-type(6n+8) circle { stroke: #fddc32; }
+
+/* Quinary */
+
+svg.radial-progress:nth-of-type(6n+9) circle { stroke: #6b7ff0; }
+
+/* Quinary */
+
+svg.radial-progress:nth-of-type(6n+10) circle { stroke: #fd6470; }
+
+/* Quinary */
+
+svg.radial-progress:nth-of-type(6n+11) circle { stroke: #83e4e2; }
+
+/* Quinary */
+
+svg.radial-progress:nth-of-type(6n+12) circle { stroke: #a2ed56; }
+
+@media (max-width:480px) {
+  svg.radial-progress {
+    height: auto;
+    max-width: 100px;
+    padding: 1em;
+    transform: rotate(-90deg);
+    width: 100%;
+  }
+}

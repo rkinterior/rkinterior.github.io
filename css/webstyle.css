@@ -1,0 +1,157 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.wheatherbox{
+    width:70%;
+    height:600px;
+    background-color:#091f44;
+    margin:auto;
+    margin-top:50px;
+}
+.wheathehead{
+    color:white;
+    text-align: center;
+    padding:50px 0 20px 0px;
+    font-weight: 700;
+    letter-spacing:1px;
+}
+.wheathewhitebox{
+    background-color:white;
+    width:250px;
+    height: 300px;
+    margin: auto;
+    margin-top:50px;
+}
+
+.wheatheinput
+{
+    width:300px;
+    margin: auto;
+    color: white;
+}
+
+#inputvalue
+{
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    margin-right:10px;
+    width:200px;
+    color:white;
+
+}
+::-webkit-input-placeholder{
+    color: white;
+}
+#inputvalue:focus{
+    outline:none;
+    color:white;
+}
+#button
+{
+    background-color: #fc1e43;
+    border:none;
+    border-radius: 5px;
+    color:white;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 10px 15px;
+    letter-spacing:1px;
+}
+.box_content{
+    margin-left:20px;
+}
+#country{
+
+   position: relative;
+   top: 10px;
+   left:20px;
+    background-color: #ee8f15;
+    text-align:center;
+    width:30px;
+    border-radius:8px;
+    color:white;
+    font-size: 11px;
+}
+
+#city{
+
+    position: relative;
+    top: 20px;
+    left:20px;
+    color:#585f76;
+    font-size:20px;
+    font-weight: 600;
+}
+
+
+#temp{
+    position: relative;
+    top: 20px;
+    left:20px;
+    
+    color:#000000;
+    font-size:35px;
+    font-weight:bold;
+}
+#C{
+
+    display: none;
+    position: relative;
+    top:-20px;
+    padding-left:70px;
+    font-size:20px;
+}
+
+#img{
+
+    
+}
+
+
+#desp{
+    position: relative;
+    top: 10px;
+    left:20px;
+    
+    color:#585f76;
+    font-size:15px;
+    font-weight: 500;
+}
+
+
+@media (max-width:480px) {
+    .wheatherbox{
+        width:90%;
+        height:420px;
+        background-color:#091f44;
+        margin:auto;
+        margin-top:10px;
+    }
+    .wheathehead{
+        color:white;
+        text-align: center;
+        padding:20px 0 20px 0px;
+        font-weight: 700;
+        letter-spacing:1px;
+    }
+    .wheathewhitebox{
+        background-color:white;
+        width:250px;
+        height: 250px;
+        margin: auto;
+        margin-top:20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
